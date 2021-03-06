@@ -3,7 +3,7 @@ name: Mystic Kernel (MSM-4.14)
 
 steps:
 - name: Building Mystic Kernel
-  image: okta10/docker:ubuntu
+  image: okta10/docker:debian
   environment: 
     TOKED:
       from_secret: TOKED
